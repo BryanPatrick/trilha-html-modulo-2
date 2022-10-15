@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template - Utilizar como modelo</title>
-    <link rel="stylesheet" href="base.css">
-</head>
-<body>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./sobre.html">Sobre nós</a></li>
-                <li><a href="./horario.html">Horários</a></li>
-                <li><a href="./contato.html">Contato</a></li>
-            </ul>
-        </div>
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./sobre.html">Sobre nós</a></li>
+          <li><a href="./horario.html">Horários</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+            Header
+            <!-- Aqui vai o seu header -->
             </div>
-    
+
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+            <!-- Aqui vai o seu conteúdo -->
+                <h3>Contatos:</h3>
+                <p>Tel: 99 9 9999-9999 / whatsapp: 99 9 9999-9999</p>
+                <p>email: contato@ortoped.com.br</p>
+                <p>Endereço: Av. Santos Dumont, 3651 - Sítio Paecara (Vicente de Carvalho), Guarujá - SP, 11460-002</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14583.070662951784!2d-46.2791101!3d-23.9686545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8104e283e49d56c!2sHospital%20Guaruj%C3%A1!5e0!3m2!1spt-PT!2sbr!4v1665840004139!5m2!1spt-PT!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>Deixe a sua opinião</p>
+                <form class="contact-form" name="contact" action="#" autocomplete="off" method="post">
+                    <label for="">Nome</label>
+                    <input type="text" name="nome" id="">
+                    <label for="">E-mail</label>
+                    <input type="email" name="email" id="">
+                    <label for="">Assunto</label>
+                    <input type="text" name="assunto" id="">
+                    <label for="">Mensagem</label>
+                    <textarea type="text" name="cel" id=""></textarea>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
             </div>
-    
+
             <div class="footer">
                 <!-- Aqui vai o seu rodapé -->
                 <div class="footer-area d-flex">
-                    <div class="spacing d-flex">
-                        <p class="spacing">siga-nos em nossa rede social</p>
-                        <img class="icone" src="./image/instagram.png" alt="icone do instagram">
-                    </div>
-                    <div class="spacing d-flex">
-                        <p class="spacing">fale conosco pelo whatsapp</p>
-                        <img height="50px" class="icone" src="./image/whatsapp.png" alt="icone do whatsapp">
-                    </div>
-                    <div class="spacing d-flex">
-                        <p class="spacing">mande-nos um email</p>
-                        <img class="icone" src="./image/email.jpg" alt="">
-                    </div>
+                <div class="spacing d-flex">
+                    <p class="spacing">siga-nos em nossa rede social</p>
+                    <img
+                    class="icone"
+                    src="./image/instagram.png"
+                    alt="icone do instagram"
+                    />
+                </div>
+                <div class="spacing d-flex">
+                    <p class="spacing">fale conosco pelo whatsapp</p>
+                    <img
+                    height="50px"
+                    class="icone"
+                    src="./image/whatsapp.png"
+                    alt="icone do whatsapp"
+                    />
+                </div>
+                <div class="spacing d-flex">
+                    <p class="spacing">mande-nos um email</p>
+                    <img class="icone" src="./image/email.jpg" alt="" />
+                </div>
                 </div>
             </div>
         </div>
     </div>
-</body>
+  </body>
 </html>

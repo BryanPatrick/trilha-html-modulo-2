@@ -47,12 +47,42 @@ body {
 .d-flex {
     display: flex;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
 .icone {
     width: 50px;
 }
 .footer-area {
     margin: 20px 0 0;
 }
+
+table {
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+}
+
+table tbody tr {
+    text-align: center;
+}
+
 .spacing {
     margin: 0 20px;
+}
+
+table tbody tr:hover td {
+    background-color: lightgray;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: lightblue;
+}
+
+img {
+    margin: 0 8px;
 }
